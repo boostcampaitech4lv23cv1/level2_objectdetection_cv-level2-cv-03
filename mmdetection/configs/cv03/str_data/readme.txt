@@ -1,0 +1,1 @@
+# _base_/datasets/coco_detection.py의 train, test가 train_st.json, test_st.json으로 설정되어야 함
