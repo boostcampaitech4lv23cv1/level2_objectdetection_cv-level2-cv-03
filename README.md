@@ -31,7 +31,7 @@ Image size : (1024, 1024)
 # 프로젝트 수행 절차
 <h3> 1. 데이터 EDA  </h3>
 <h3> 2. 모델 탐색  </h3>
-<h3> 3. Augmentation 기법 탐색 & K-fold validation을 위한 Cross Validation 전략 수립/h3>
+<h3> 3. Augmentation 기법 탐색 & K-fold validation을 위한 Cross Validation 전략 수립</h3>
 <h3> 4. Ensemble & Hyperparameter Tuning  </h3>
 
 
