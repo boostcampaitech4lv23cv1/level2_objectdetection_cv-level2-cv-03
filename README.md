@@ -7,7 +7,7 @@
 조재효 - Augmentation(TTA, albumentation), 1stage model (yolov7), 2 stage model(cascade_swin_b), hyperparameter tuning, k-fold, ensemble(wbf)
 허진녕 - EDA, 1 stage model (yolov3, yolof, yolox) 실험, hyperparameter tuning(atss_dyhead), kfold, ensemble(wbf)
 
-#프로젝트 개요
+# 프로젝트 개요
 ![image](https://user-images.githubusercontent.com/39187226/216992364-4e56b8aa-f99c-402a-be29-db7ca5b35313.png)
 
 바야흐로 대량 생산, 대량 소비의 시대. 우리는 많은 물건이 대량으로 생산되고, 소비되는 시대를 살고 있다. 하지만 이러한 문화는 '쓰레기 대란', '매립지 부족'과 같은 여러 사회 문제를 낳고 있다.
