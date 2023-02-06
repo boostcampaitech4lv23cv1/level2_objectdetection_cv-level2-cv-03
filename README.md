@@ -36,10 +36,10 @@ Image size : (1024, 1024)
 
 
 # 문제정의
-<h3> 1. 클래스의 분포의 불균형 </h3>  
+<h3> 1. 클래스의 분포의 불균형</h3>  
 - EDA 결과, 각각의 클래스 별 분포가 균일하지 않아, 전체 데이터셋에서 train set과 validation set 분리 시 클래스 분포에 맞게 나눌 필요가 있다.
   
-<h3> 2. 성능 향상을 위한 Model Ensemble 전략 수립 </h3>
+<h3> 2. 성능 향상을 위한 Model Ensemble 전략 수립</h3>
 - 2개 이상의 모델을 통해 예측한 bounding box 중 더 ground truth에 맞는 bbox를 만드는 방법이 필요하다. mAP를 계산함에 있어서는 정답과 유사한 bbox가 많을 수록 좋은 점수를 도출해내므로 정답에 가까운 bbox를 더 정확하게 만드는 ensemble 전략이 필요했다.
   
 &nbsp;
