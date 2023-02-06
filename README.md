@@ -18,9 +18,6 @@
 
 이를 이용하여 학습 시킨 모델은 쓰레기장에 설치되어 정확한 분리수거를 돕거나, 어린아이들의 분리수거 교육 등에 사용될 수 있을 것이다.
 
-Dataset
-image
-
 우리는 수많은 쓰레기를 배출하면서 지구의 환경파괴, 야생동물의 생계 위협 등 여러 문제를 겪고 있습니다. 이러한 문제는 쓰레기를 줍는 드론, 쓰레기 배출 방지 비디오 감시, 인간의 쓰레기 분류를 돕는 AR 기술과 같은 여러 기술을 통해서 조금이나마 개선이 가능합니다.
 
 제공되는 이 데이터셋은 위의 기술을 뒷받침하는 쓰레기를 판별하는 모델을 학습할 수 있게 해줍니다.
@@ -53,20 +50,20 @@ Image size : (1024, 1024)
   - HorizontalFlip
   - VerticalFlip
   - ShiftScaleRotate
-	- Blur or MedianBlur
-	- RGBShift or HueSaturationValue or RandomBrightnessContrast or ChannelShuffle
-	- Normalize
-	- Pad (size=(512, 512), pad_val=0)
+  - Blur or MedianBlur
+  - RGBShift or HueSaturationValue or RandomBrightnessContrast or ChannelShuffle
+  - Normalize
+  - Pad (size=(512, 512), pad_val=0)
    
 - ATSS_Dyhead_SwinT
   - Resize (size=[(256, 256), (512, 512), (768, 768), (1024, 1024)])
   - HorizontalFlip
   - VerticalFlip
   - ShiftScaleRotate
-	- Blur or MedianBlur
-	- RGBShift or HueSaturationValue or RandomBrightnessContrast or ChannelShuffle
-	- Normalize
-	- Pad (size=(512, 512), pad_val=0)
+  - Blur or MedianBlur
+  - RGBShift or HueSaturationValue or RandomBrightnessContrast or ChannelShuffle
+  - Normalize
+  - Pad (size=(512, 512), pad_val=0)
 
 - YOLOv7
   - Mosaic
@@ -75,6 +72,7 @@ Image size : (1024, 1024)
   - augment_hsv
   - cutout
   
+	
 &nbsp;  
   
 # Advanced Techniques
@@ -86,6 +84,7 @@ Image size : (1024, 1024)
 
 - 전반적인 성능이 비슷한 3개의 모델을 바탕으로 가장 정확한 예측 bbox를 만들기 위해 각 모델 별 confusion matrix를 통해 예측이 어려운 클래스를 잘 맞추는 모델에 더 가중치를 두어 WBF를 적용하여 mAP50 기준 기존 성능 대비 약 8%의 성능향상을 확인하였다.
 
+	
 &nbsp;
 # Reference
 <a name="footnote_1">[1]</a>  : AIstage
