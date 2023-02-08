@@ -1,11 +1,12 @@
 ![header](https://capsule-render.vercel.app/api?type=rect&color=gradient&text=재활용%20품목%20분류를%20위한%20Object%20Detection&fontSize=30)
 
 # Members
-김도윤 - 2 stage model(detector, feature extractor 위주의 실험 진행_faster, cascade, htc, etc.), ensemble(wbf), Hyperparameter tuning
-김윤호 - Augmentation(Auto-augmentation, Mosaic, Multi-Scale) 실험, 2 stage model(ATSSDyhead, cascade rcnn), StratifiedGroupKfold 구현
-김종해 - 1 stage model (RetinaNet, yolov7) 실험, StratifiedGroupKfold 구현, WeightedBoxesFusion 실험
-조재효 - Augmentation(TTA, albumentation), 1stage model (yolov7), 2 stage model(cascade_swin_b), hyperparameter tuning, k-fold, ensemble(wbf)
-허진녕 - EDA, 1 stage model (yolov3, yolof, yolox) 실험, hyperparameter tuning(atss_dyhead), kfold, ensemble(wbf)
+- **김도윤**  : 2 stage model(detector, feature extractor 위주의 실험 진행_faster, cascade, htc, etc.), ensemble(wbf), Hyperparameter tuning
+- **김윤호**  : Augmentation(Auto-augmentation, Mosaic, Multi-Scale) 실험, 2 stage model(ATSSDyhead, cascade rcnn), StratifiedGroupKfold 구현
+- **김종해**  : 1 stage model (RetinaNet, yolov7) 실험, StratifiedGroupKfold 구현, WeightedBoxesFusion 실험
+- **조재효**  : Augmentation(TTA, albumentation), 1stage model (yolov7), 2 stage model(cascade_swin_b), hyperparameter tuning, k-fold, ensemble(wbf)
+- **허진녕**  : EDA, 1 stage model (yolov3, yolof, yolox) 실험, hyperparameter tuning(atss_dyhead), kfold, ensemble(wbf)
+
 
 # 프로젝트 개요
 ![image](https://user-images.githubusercontent.com/39187226/216992364-4e56b8aa-f99c-402a-be29-db7ca5b35313.png)
